@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --roxo: #9055A2;
+    --rosa: #F2CEE6;
+}
+
+header {
+    padding: 30vh;
+    background-image: url('imagens/Beautiful\ Jewellery.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+h1, h2, p {
+    font-family: "Raleway";
+    color: var(--roxo);
+}
+
+h1, h2 {
+    font-size: 3em;
+}
+
+main {
+    background-color: var(--rosa);
+}
+
+img {
+    width: 150px;
+}
